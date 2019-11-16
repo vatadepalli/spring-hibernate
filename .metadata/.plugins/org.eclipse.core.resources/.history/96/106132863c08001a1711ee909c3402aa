@@ -1,0 +1,14 @@
+package com.app.springdemo;
+
+import org.springframework.stereotype.Component;
+
+//@Component("MyTennisCoach")
+@Component() // Defaults to "tennisCoach"
+public class TennisCoach implements Coach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "Practice your backhand volley.";
+	}
+
+}

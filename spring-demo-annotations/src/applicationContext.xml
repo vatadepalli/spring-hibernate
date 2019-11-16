@@ -8,6 +8,6 @@
     http://www.springframework.org/schema/context/spring-context.xsd">
 
 	<!-- Add entry to enable component scanning -->
-	<context:component-scan base-package="com.app.springdemo"/>
+	<context:component-scan base-package="com.app"/>
 
 </beans>

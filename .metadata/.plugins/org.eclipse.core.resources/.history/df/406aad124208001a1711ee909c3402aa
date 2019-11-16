@@ -1,0 +1,11 @@
+package com.app.fortune;
+
+public class HappyFortuneService implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return "This is HappyFortuneService \nand today is your lucky day!";
+	}
+
+}

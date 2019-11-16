@@ -1,0 +1,9 @@
+package com.app.fortuna;
+
+public interface FortuneService {
+	
+	public String getFortune() {
+		
+	}
+
+}

@@ -1,0 +1,41 @@
+package com.app.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+import com.app.fortune.FortuneService;
+
+//@Component("MyTennisCoach")
+@Component() // Defaults to "tennisCoach"
+public class TennisCoach implements Coach {
+	
+	// Injected Dependency Field
+	private FortuneService fortuneService;
+	
+	// Constructor for Const. Based Injection
+//	@Autowired // Since Sping 4.3 this is optional
+//	public TennisCoach(FortuneService fortuneService) {
+//		this.fortuneService = fortuneService;
+//	}
+
+	@Override
+	public String getDailyWorkout() {
+		return "Practice your backhand volley.";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+
+	// Setter based dependency injection
+	@Autowired
+	public void setFortuneService(FortuneService fortuneService) {
+		this.fortuneService = fortuneService;
+		System.out.println("Autowire on Setter of TennisCoach");
+	}
+	
+	
+
+}

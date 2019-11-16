@@ -9,14 +9,19 @@ public class AnnotationDemo {
 	public static void main(String[] args) {
 		// Read spring config file
 		try(ClassPathXmlApplicationContext ctx =
-				new ClassPathXmlApplicationContext("applicationContext.xml"))
-		{
+				new ClassPathXmlApplicationContext("applicationContext.xml")){
 			
 			// Get the bean from spring container
 			Coach theCoach = ctx.getBean("tennisCoach", Coach.class);
 			
 			// call a method on the bean
 			System.out.println(theCoach.getDailyWorkout());
+			
+			// daily fortune
+			System.out.println(theCoach.getDailyFortune());
+			
+		}catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
 

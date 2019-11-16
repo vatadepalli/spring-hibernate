@@ -1,0 +1,5 @@
+package com.app.fortuna;
+
+public interface FortuneService {
+
+}
