@@ -1,0 +1,9 @@
+package com.app.sd;
+
+public class BaseballCoach implements COach {
+
+	@Override
+	public String getDailyWorkout() {
+		return "Spend 30 minutes on batting practice";
+	}
+}

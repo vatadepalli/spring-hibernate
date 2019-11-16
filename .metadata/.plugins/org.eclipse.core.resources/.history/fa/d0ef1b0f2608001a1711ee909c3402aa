@@ -1,0 +1,13 @@
+package com.app.coaches;
+
+import com.app.fortune.FortuneService;
+
+public class CricketCoach implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

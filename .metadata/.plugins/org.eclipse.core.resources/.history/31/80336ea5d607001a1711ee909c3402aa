@@ -1,0 +1,7 @@
+package com.app.sd;
+
+public interface Coach {
+	
+	public String getDailyWorkout();
+
+}

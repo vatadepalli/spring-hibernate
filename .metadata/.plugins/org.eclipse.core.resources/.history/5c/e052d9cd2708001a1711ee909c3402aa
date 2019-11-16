@@ -1,0 +1,24 @@
+package com.app.tester;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.app.coaches.CricketCoach;
+
+public class SetterDemoApp {
+	
+	public static void main(String[] args) {
+		
+		// Load spring config file
+		ClassPathXmlApplicationContext ctx = 
+				new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		// Retrieve bean from spring container
+		CricketCoach theCoach = 
+				ctx.getBean("myCricketCoach", CricketCoach.class);
+		
+		// Call method on the beans
+		
+		// Close the context
+	}
+
+}

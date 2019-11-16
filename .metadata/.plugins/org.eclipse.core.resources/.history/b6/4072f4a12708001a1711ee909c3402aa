@@ -1,0 +1,16 @@
+package com.app.tester;
+
+public class SetterDemoApp {
+	
+	public static void main(String[] args) {
+		
+		// Load spring config file
+		
+		// Retrieve bean from spring container
+		
+		// Call method on the beans
+		
+		// Close the context
+	}
+
+}

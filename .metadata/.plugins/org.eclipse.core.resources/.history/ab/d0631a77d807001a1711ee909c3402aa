@@ -1,0 +1,16 @@
+package com.app.tester;
+
+public class HelloSpringApp {
+
+	public static void main(String[] args) {
+		// Load the spring config file
+		
+		// Retrieve a bean from the spring container
+		
+		// Call methods on the bean
+		
+		// call the context
+
+	}
+
+}

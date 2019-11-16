@@ -1,0 +1,12 @@
+package com.app.tester;
+
+public class BeanScopeDemoApp {
+	public static void main(String[] args) {
+		
+		// Load the spring config file
+		ClassPathXmlContext ctx = new ClassPathXmlContext();
+		
+		// Retrieve bean from the spring container
+	}
+
+}

@@ -1,0 +1,30 @@
+package com.app.tester;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.app.coaches.Coach;
+
+public class BeanScopeDemoApp {
+	public static void main(String[] args) {
+		
+		// Load the spring config file
+		ClassPathXmlApplicationContext ctx = 
+				new ClassPathXmlApplicationContext("beanScope-applicationContext.xml");
+		
+		// Retrieve bean from the spring container
+		Coach theCoach = ctx.getBean("myCoach", Coach.class);
+		
+		Coach alphaCoach = ctx.getBean("myCoach", Coach.class);
+		
+		
+		// Check if "theCoach" and "alphaCoach" refer to the same object.
+		System.out.println("Memory Locaton for theCoach: "  + theCoach);
+		System.out.println("Memory Locaton for alphaCoach: " + alphaCoach);
+		
+		boolean result = (theCoach == alphaCoach);
+		System.out.println("\nPointing to the same object: "+ result);
+		
+		// Close Context
+		ctx.close();
+	}
+
+}
