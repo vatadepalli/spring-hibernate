@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.app.test&apos; to &apos;com.app.tester&apos;&#x0A;- Original project: &apos;spring-demo-annotations&apos;&#x0A;- Original element: &apos;spring-demo-annotations/src/com.app.test&apos;&#x0A;- Renamed element: &apos;spring-demo-annotations/src/com.app.tester&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.app.test&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;com.app.test" name="com.app.tester" qualified="false" references="true" stamp="1573886014142" textual="false" version="1.0"/>
+</session>
