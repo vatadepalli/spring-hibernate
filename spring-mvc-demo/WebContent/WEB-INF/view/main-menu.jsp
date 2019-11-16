@@ -5,6 +5,8 @@
 		
 		<hr>
 		
-		<a href="showForm">Hello World form</a>
+		<a href="showForm">Hello World Form</a>
+		<br>
+		<a href="showFormVersionTwo">Hello World Form Two</a>
 	</body>
 </html>
