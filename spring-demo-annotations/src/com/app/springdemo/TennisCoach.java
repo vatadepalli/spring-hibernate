@@ -1,14 +1,28 @@
 package com.app.springdemo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 import com.app.fortune.FortuneService;
 
 //@Component("MyTennisCoach")
-@Component() // Defaults to "tennisCoach"
+@Component // Defaults to "tennisCoach"
+@Scope("singleton") // Default Scope
+//@Scope("prototype")
 public class TennisCoach implements Coach {
+	
+	// Properties Loading from File
+	@Value("${foo.email}")
+	private String email;
+	
+	@Value("${foo.team}")
+	private String team;
 
 	// APPROACH 4 - Field Based Dependency Injection
 	@Autowired
@@ -53,5 +67,25 @@ public class TennisCoach implements Coach {
 //		this.fortuneService = fortuneService;
 //		System.out.println("Method Injection Trigged on TennisCoach");
 //	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public String getTeam() {
+		return team;
+	}
+	
+	// Init
+	@PostConstruct
+	public void startupStuff() {
+		System.out.println("TennisCoach Beans's startupStuff() Executed");
+	}
+
+	// Destroy
+	@PreDestroy
+	public void destoryStuff() {
+		System.out.println("TennisCoach Beans's destoryStuff() Executed");
+	}
 
 }

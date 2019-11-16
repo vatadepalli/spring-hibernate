@@ -1,0 +1,32 @@
+package com.app.tester;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import com.app.springdemo.Coach;
+
+public class AnnotationDemo {
+
+	public static void main(String[] args) {
+		// Read spring config file
+		try(ClassPathXmlApplicationContext ctx =
+				new ClassPathXmlApplicationContext("applicationContext.xml")){
+			
+			// Get the bean from spring container
+			Coach theCoach = ctx.getBean("tennisCoach", Coach.class);
+			
+			// call a method on the bean
+			System.out.println(theCoach.getDailyWorkout());
+			
+			// daily fortune
+			System.out.println(theCoach.getDailyFortune());
+			
+			// property loading
+			System.out.println("Team: " + theCoach.getTeam());
+			System.out.println("Email: " + theCoach.getEmail());
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

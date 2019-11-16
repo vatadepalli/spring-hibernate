@@ -1,0 +1,75 @@
+package com.app.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+import com.app.fortune.FortuneService;
+
+//@Component("MyTennisCoach")
+@Component // Defaults to "tennisCoach"
+@Scope("singleton") // Default
+public class TennisCoach implements Coach {
+	
+	// Properties Loading from File
+	@Value("${foo.email}")
+	private String email;
+	
+	@Value("${foo.team}")
+	private String team;
+
+	// APPROACH 4 - Field Based Dependency Injection
+	@Autowired
+	@Qualifier("randomFortuneService") // When dealing with multiple implementations of "FortuneService" Interface
+	private FortuneService fortuneService;
+	/* This approach uses Java Reflection 
+	 * */
+
+	// Default Constructor
+	public TennisCoach() {
+		System.out.println("Default Constructor Triggered on TennisCoach.");
+	}
+
+	// APPROACH 1 - Const. based injection through autowiring
+//	@Autowired // Since Sping 4.3 this is optional
+//	public TennisCoach(FortuneService fortuneService) {
+//		System.out.println("Constructor Injection Trigged on TennisCoach");
+//		this.fortuneService = fortuneService;
+//	}
+
+	@Override
+	public String getDailyWorkout() {
+		return "\nPractice your backhand volley.";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+
+	// APPROACH 2 - Setter based dependency injection through autowiring
+//	@Autowired // Autowiring here is mandatory for this approach
+//	public void setFortuneService(FortuneService fortuneService) {
+//		this.fortuneService = fortuneService;
+//		System.out.println("Setter Injection Trigged on TennisCoach");
+//	}
+	
+	// APPROACH 3 - Method based dependency injection through autowiring
+//	@Autowired // Autowiring here is mandatory for this approach
+//	public void randomMethod(FortuneService fortuneService) {
+//		this.fortuneService = fortuneService;
+//		System.out.println("Method Injection Trigged on TennisCoach");
+//	}
+	
+	public String getEmail() {
+		return email;
+	}
+	
+	public String getTeam() {
+		return team;
+	}
+
+}

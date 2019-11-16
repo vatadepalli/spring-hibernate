@@ -20,6 +20,21 @@ public class AnnotationDemo {
 			// daily fortune
 			System.out.println(theCoach.getDailyFortune());
 			
+			// property loading
+			System.out.println("Team: " + theCoach.getTeam());
+			System.out.println("Email: " + theCoach.getEmail());
+			
+			
+			// Scope Verification
+			Coach alphaCoach = ctx.getBean("tennisCoach", Coach.class);
+			
+			System.out.println();
+			System.out.println("Memory Locaton for theCoach: "  + theCoach);
+			System.out.println("Memory Locaton for alphaCoach: " + alphaCoach);
+			
+			boolean result = (theCoach == alphaCoach);
+			System.out.println("\nPointing to the same object: "+ result);
+			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

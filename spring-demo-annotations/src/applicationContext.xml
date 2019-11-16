@@ -9,5 +9,9 @@
 
 	<!-- Add entry to enable component scanning -->
 	<context:component-scan base-package="com.app"/>
+	
+	<!-- Load the properties file: sport.properties -->
+	<context:property-placeholder
+		location="classpath:sport.properties" />
 
 </beans>
