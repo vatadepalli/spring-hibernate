@@ -20,6 +20,10 @@ public class JavaConfigDemo {
 			// daily fortune
 			System.out.println(theCoach.getDailyFortune());
 			
+			// Properties Thru Config
+			System.out.println("Email: " + theCoach.getEmail());
+			System.out.println("Team: " + theCoach.getTeam());
+			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

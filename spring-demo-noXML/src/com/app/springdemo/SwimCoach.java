@@ -1,11 +1,19 @@
 package com.app.springdemo;
 
+import org.springframework.beans.factory.annotation.Value;
+
 import com.app.fortune.FortuneService;
 
 public class SwimCoach implements Coach {
 	
-	private String email = "swimcoach@gmail.com";
-	private String team = "The Mermaids";
+//	private String email = "swimcoach@gmail.com";
+//	private String team = "The Mermaids";
+	
+	@Value("${foo.email}")
+	private String email;
+	
+	@Value("${foo.team}")
+	private String team;
 	
 	private FortuneService fortuneService;
 	
