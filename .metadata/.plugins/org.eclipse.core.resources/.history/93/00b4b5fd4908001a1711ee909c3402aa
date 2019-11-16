@@ -1,0 +1,17 @@
+package com.app.fortune;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class RandomFortuneService implements FortuneService {
+	
+	// array of strings
+	
+	@Override
+	public String getFortune() {
+		// pick a random string from the array
+		// TODO Auto-generated method stub
+		return "\nThis is SadFortuneService \nand today is your unlucky day!";
+	}
+
+}

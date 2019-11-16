@@ -12,7 +12,7 @@ public class TennisCoach implements Coach {
 
 	// APPROACH 4 - Field Based Dependency Injection
 	@Autowired
-	@Qualifier("randomFortuneService") // When dealing with multiple implementations of "FortuneService" Interface
+	@Qualifier("sadFortuneService") // When dealing with multiple implementations of "FortuneService" Interface
 	private FortuneService fortuneService;
 	/* This approach uses Java Reflection 
 	 * */
