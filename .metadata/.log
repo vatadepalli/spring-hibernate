@@ -11678,3 +11678,75 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:14:27.116
 !MESSAGE executing callback sts4.classpath.NUYjhKOx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.635
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.635
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.636
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.636
+!MESSAGE buffering callback sts4.classpath.NUYjhKOx spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.636
+!MESSAGE Preparing classpath changed notification spring-demo-xml
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.637
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.637
+!MESSAGE buffering callback sts4.classpath.NUYjhKOx spring-demo-xml false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.637
+!MESSAGE executing callback sts4.classpath.NUYjhKOx 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:30.641
+!MESSAGE executing callback sts4.classpath.NUYjhKOx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.479
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.479
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.481
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.485
+!MESSAGE buffering callback sts4.classpath.NUYjhKOx spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.489
+!MESSAGE Preparing classpath changed notification spring-demo-xml
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.489
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.490
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.490
+!MESSAGE buffering callback sts4.classpath.NUYjhKOx spring-demo-xml false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.490
+!MESSAGE executing callback sts4.classpath.NUYjhKOx 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:39.493
+!MESSAGE executing callback sts4.classpath.NUYjhKOx SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:44.171
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NUYjhKOx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:44.171
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.NUYjhKOx
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:44.173
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-16 14:15:44.173
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.NUYjhKOx => OK
