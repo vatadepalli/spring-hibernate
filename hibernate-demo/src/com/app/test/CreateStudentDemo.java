@@ -2,9 +2,10 @@ package com.app.test;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.cfg.Configuration;
 
-import com.app.entities.Student;
+import com.app.pojos.Student;
 
 public class CreateStudentDemo {
 
@@ -14,31 +15,31 @@ public class CreateStudentDemo {
 		SessionFactory sf = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class)
 				.buildSessionFactory();
 
-		// create a session
-		Session session = sf.getCurrentSession();
+		/* use the session object to save Java object */
+		
+		// Create a transaction reference
+		Transaction tx = null;
 
-		try {
-			/* use the session object to save Java object */
-
+		try (Session session = sf.getCurrentSession()){ // create a session
 			// create the student object
 			System.out.println("Creating a new stuent object...");
-			Student tempStudent = new Student("Banna", "Tadepalli", "banna@gmail.com");
+			Student tempStudent = new Student("Vijaya Aditya", "Tadepalli", "vatadepalli@gmail.com");
 
-			// bengin a transaction
-			session.beginTransaction();
-
+			// begin a transaction
+			tx = session.beginTransaction();
+			
 			// save the student object
 			System.out.println("Saving the student...");
 			session.save(tempStudent);
-			
+
 			// commit the transacton
-			session.getTransaction().commit();
+			tx.commit();
 			System.out.println("Done Transaction...");
-			
+
 		} catch (Exception e) {
-			e.printStackTrace();
-		} finally {
-			sf.close();
+			if (tx != null)
+				tx.rollback(); // Rollback if something is fucked.
+			e.printStackTrace(); // Print what's fucked up.
 		}
 
 	}
