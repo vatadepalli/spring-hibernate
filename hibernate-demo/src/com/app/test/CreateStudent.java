@@ -1,33 +1,30 @@
 package com.app.test;
 
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
+import static com.app.utils.HibernateUtils.getSf;
+
 
 import com.app.pojos.Student;
 
-public class CreateStudentDemo {
+public class CreateStudent {
 
 	public static void main(String[] args) {
 
-		// create session factory
-		SessionFactory sf = new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Student.class)
-				.buildSessionFactory();
 
 		/* use the session object to save Java object */
-		
-		// Create a transaction reference
+
+		// Create a null transaction reference
 		Transaction tx = null;
 
-		try (Session session = sf.getCurrentSession()){ // create a session
+		try (Session session = getSf().getCurrentSession()) { // create a session
 			// create the student object
 			System.out.println("Creating a new stuent object...");
 			Student tempStudent = new Student("Vijaya Aditya", "Tadepalli", "vatadepalli@gmail.com");
 
 			// begin a transaction
 			tx = session.beginTransaction();
-			
+
 			// save the student object
 			System.out.println("Saving the student...");
 			session.save(tempStudent);
