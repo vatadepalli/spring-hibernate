@@ -31,7 +31,6 @@ public class CreateInstructor {
 
 			// save the instructor
 			session.save(tempInstructor);
-			
 			/*
 			 * Note: This will also save the details of the instructor details object
 			 * because of CascadeType.ALL

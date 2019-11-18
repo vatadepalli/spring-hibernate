@@ -8,7 +8,7 @@ import org.hibernate.Transaction;
 import com.app.pojos.Course;
 import com.app.pojos.Instructor;
 
-public class CreateCourses {
+public class GetInstCourses {
 
 	public static void main(String[] args) {
 
@@ -26,9 +26,7 @@ public class CreateCourses {
 			int id = 1;
 			Instructor tempInstructor = session.get(Instructor.class, id);
 			
-			// CREATE SOME COURSES
-			Course tempCourse = new Course("Air Guitar - The Ultimate Guide");
-			Course tempCourse2 = new Course("The Pinball Masterclass");
+			
 			
 			// ADD COURSES TO INSTRUCTOR
 			tempInstructor.add(tempCourse);
