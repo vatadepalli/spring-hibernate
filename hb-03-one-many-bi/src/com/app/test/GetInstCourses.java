@@ -5,7 +5,6 @@ import static com.app.utils.HibernateUtils.getSf;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
-import com.app.pojos.Course;
 import com.app.pojos.Instructor;
 
 public class GetInstCourses {
@@ -26,16 +25,6 @@ public class GetInstCourses {
 			int id = 1;
 			Instructor tempInstructor = session.get(Instructor.class, id);
 			
-			
-			
-			// ADD COURSES TO INSTRUCTOR
-			tempInstructor.add(tempCourse);
-			tempInstructor.add(tempCourse2);
-			
-			// SAVE THOSE COURSES
-			session.save(tempCourse);
-			session.save(tempCourse2);
-
 			// commit the transacton
 			System.out.println("Saving Inst: " + tempInstructor);
 			
