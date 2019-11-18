@@ -9,7 +9,7 @@
 
 		<!-- JDBC Database connection settings -->
 		<property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
-		<property name="connection.url">jdbc:mysql://localhost:3306/hb_student_tracker?useSSL=false</property>
+		<property name="connection.url">jdbc:mysql://localhost:3306/hb-01-one-to-one-uni?useSSL=false</property>
 		<property name="connection.username">hbstudent</property>
 		<property name="connection.password">hbstudent</property>
 
@@ -30,7 +30,8 @@
 		<!-- Misc -->
 		<property name="hibernate.format_sql">true</property>
 		<property name="hibernate.hbm2ddl.auto">update</property>
-		<mapping class="com.app.pojos.Student" />
+		<mapping class="com.app.pojos.Instructor" />
+		<mapping class="com.app.pojos.InstructorDetail" />
 
 	</session-factory>
 

@@ -1,16 +1,16 @@
-package com.app.testCRUD;
+package com.app.test;
+
+import static com.app.utils.HibernateUtils.getSf;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import static com.app.utils.HibernateUtils.getSf;
 
+import com.app.pojos.Instructor;
+import com.app.pojos.InstructorDetail;
 
-import com.app.pojos.Student;
-
-public class UpdateStudent {
+public class Delete {
 
 	public static void main(String[] args) {
-
 
 		/* use the session object to save Java object */
 
@@ -18,18 +18,25 @@ public class UpdateStudent {
 		Transaction tx = null;
 
 		try (Session session = getSf().getCurrentSession()) { // create a session
+			
 
 			// begin a transaction
 			tx = session.beginTransaction();
 
-			// retrieve student with id: 1
-			System.out.println("\nGetting student with id: " + 1);
-			Student myStudent = session.get(Student.class, 1);
-			System.out.println("Retrieved: " + myStudent);
+			// DETETE BY ID
+			int id = 1;
+			Instructor tempInstructor = session.get(Instructor.class, id);
 			
-			// updating the object
-			System.out.println("Now updating it");
-			myStudent.setFirstName("Rutherford");
+			System.out.println("Found Instructor: " + tempInstructor);
+			
+			if(tempInstructor != null) {
+				System.out.println("Deleting: " + tempInstructor);
+				session.delete(tempInstructor);
+			}
+			/*
+			 * This will also delete the instructor details object due to cacade.
+			 * */
+		
 
 			// commit the transacton
 			tx.commit();

@@ -1,4 +1,4 @@
-package com.app.testCRUD;
+package com.app.testDB;
 
 import org.hibernate.SessionFactory;
 import static com.app.utils.HibernateUtils.*;
