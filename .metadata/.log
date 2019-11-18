@@ -19583,3 +19583,1461 @@ java.lang.IllegalArgumentException: Illegal value: -1
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:08:54.121
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YWwYYazd => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:22.741
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:22.741
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5e78dd7f[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=666)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:22.743
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.149
+!MESSAGE Boot LS startup time from start to initialized: 1406ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.184
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZdwpmgyOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.185
+!MESSAGE subscribing to classpath changes: sts4.classpath.ZdwpmgyO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.186
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.186
+!MESSAGE subsribers = {sts4.classpath.ZdwpmgyO=Send Classpath Notifications(4389)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.186
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.186
+!MESSAGE project hb-01-one-one-uni ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.187
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.187
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.187
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.187
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.188
+!MESSAGE project hb-02-one-one-bi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.188
+!MESSAGE project hibernate-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.188
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.188
+!MESSAGE project spring-demo-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.188
+!MESSAGE project spring-demo-annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.189
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.189
+!MESSAGE project spring-demo-noXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.189
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.189
+!MESSAGE project spring-mvc-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.189
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.190
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.190
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.190
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.ZdwpmgyO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.190
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.191
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.191
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.191
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.192
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.192
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.192
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.193
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.193
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.194
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.194
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.194
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.195
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.196
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.196
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.196
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.197
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.197
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.197
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.198
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.199
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.199
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:24.236
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.611
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.612
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.612
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.613
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.613
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.613
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.613
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.613
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.614
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.615
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.615
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.615
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.615
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.616
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.616
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.616
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.617
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.617
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.617
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.617
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.618
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.619
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.619
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:28.634
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.896
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.896
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.896
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.897
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.897
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.897
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.898
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.898
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.898
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.898
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.898
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.899
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.899
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.899
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.899
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.899
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.900
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.900
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.900
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.900
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.900
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.901
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.901
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.901
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.901
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.902
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.902
+!MESSAGE buffering callback sts4.classpath.ZdwpmgyO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.902
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:44.916
+!MESSAGE executing callback sts4.classpath.ZdwpmgyO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:51.278
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZdwpmgyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:51.278
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ZdwpmgyO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:51.280
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:12:51.280
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ZdwpmgyO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:00.418
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:00.419
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5e78dd7f[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=666)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:00.420
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.882
+!MESSAGE Boot LS startup time from start to initialized: 1461ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.912
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PkOOkLrEisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.912
+!MESSAGE subscribing to classpath changes: sts4.classpath.PkOOkLrE isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.912
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.913
+!MESSAGE subsribers = {sts4.classpath.PkOOkLrE=Send Classpath Notifications(4424)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.913
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.913
+!MESSAGE project hibernate-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.913
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.913
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.914
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.914
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.914
+!MESSAGE project hb-01-one-one-uni ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.914
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE project hb-02-one-one-bi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE project spring-demo-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE project spring-demo-annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.915
+!MESSAGE project spring-demo-noXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE project spring-mvc-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.916
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.PkOOkLrE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.917
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.917
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.917
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.918
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.918
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.918
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.918
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.919
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.919
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.919
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.920
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.920
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.920
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.921
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.921
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.921
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.922
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.922
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.922
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.923
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.923
+!MESSAGE executing callback sts4.classpath.PkOOkLrE 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:01.953
+!MESSAGE executing callback sts4.classpath.PkOOkLrE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.292
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.293
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.294
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.294
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.294
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.294
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.295
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.296
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.296
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.296
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.296
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.296
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.297
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.297
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.297
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.297
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.297
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.298
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.298
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.298
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.299
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.299
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.299
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.300
+!MESSAGE executing callback sts4.classpath.PkOOkLrE 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:08.313
+!MESSAGE executing callback sts4.classpath.PkOOkLrE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.615
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.615
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.615
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.616
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.616
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.616
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.617
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.617
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.618
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.618
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.618
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.618
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.619
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.619
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.619
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.619
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.620
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.620
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.620
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.620
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.621
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.621
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.621
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.621
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.621
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.622
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.622
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.622
+!MESSAGE executing callback sts4.classpath.PkOOkLrE 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:13.636
+!MESSAGE executing callback sts4.classpath.PkOOkLrE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.820
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.820
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.821
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.821
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.822
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.822
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.822
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.823
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.824
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.824
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.824
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.824
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.825
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.825
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.825
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.825
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.826
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.826
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.826
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.826
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.827
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.827
+!MESSAGE buffering callback sts4.classpath.PkOOkLrE spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.827
+!MESSAGE executing callback sts4.classpath.PkOOkLrE 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:26.840
+!MESSAGE executing callback sts4.classpath.PkOOkLrE SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:31.177
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PkOOkLrE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:31.177
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.PkOOkLrE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:31.179
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:31.179
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.PkOOkLrE => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:39.253
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:39.253
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5e78dd7f[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=666)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:39.253
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.793
+!MESSAGE Boot LS startup time from start to initialized: 1539ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.828
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mhVSnjDiisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.829
+!MESSAGE subscribing to classpath changes: sts4.classpath.mhVSnjDi isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.829
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.829
+!MESSAGE subsribers = {sts4.classpath.mhVSnjDi=Send Classpath Notifications(4478)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.830
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.830
+!MESSAGE project spring-demo-noXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.830
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.830
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE project hb-01-one-one-uni ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE project hb-02-one-one-bi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.831
+!MESSAGE project hibernate-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE project spring-demo-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE project spring-demo-annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE project spring-mvc-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.832
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.mhVSnjDi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.833
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.834
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.834
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.834
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.834
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.835
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.835
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.835
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.835
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.836
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.836
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.836
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.837
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.837
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.838
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.838
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.838
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.838
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.839
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.839
+!MESSAGE executing callback sts4.classpath.mhVSnjDi 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:40.877
+!MESSAGE executing callback sts4.classpath.mhVSnjDi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.826
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.827
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.827
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.827
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.828
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.828
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.828
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.829
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.829
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.829
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.829
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.830
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.830
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.830
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.830
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.831
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.831
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.831
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.831
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.832
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.832
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.832
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.832
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.832
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.833
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.833
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.833
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.834
+!MESSAGE buffering callback sts4.classpath.mhVSnjDi spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.834
+!MESSAGE executing callback sts4.classpath.mhVSnjDi 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:50.847
+!MESSAGE executing callback sts4.classpath.mhVSnjDi SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:54.228
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mhVSnjDi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:54.228
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.mhVSnjDi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:54.229
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:13:54.229
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.mhVSnjDi => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:31.862
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:31.862
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5e78dd7f[org.springframework.tooling.boot.ls:1.12.0.201910232051(id=666)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:31.863
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.737
+!MESSAGE Boot LS startup time from start to initialized: 1874ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.766
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GVGgxOeOisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.766
+!MESSAGE subscribing to classpath changes: sts4.classpath.GVGgxOeO isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.767
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.767
+!MESSAGE subsribers = {sts4.classpath.GVGgxOeO=Send Classpath Notifications(4506)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.767
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.767
+!MESSAGE project spring-mvc-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.768
+!MESSAGE project Servers ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.768
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.768
+!MESSAGE project Servers SKIPPED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.768
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.768
+!MESSAGE project hb-01-one-one-uni ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.769
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.769
+!MESSAGE project hb-02-one-one-bi ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.769
+!MESSAGE project hibernate-demo ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.769
+!MESSAGE project spring-demo-XML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.769
+!MESSAGE project spring-demo-annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE project spring-demo-noXML ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.770
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.GVGgxOeO => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.771
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.771
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.771
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.771
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.772
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.772
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.772
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.772
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.773
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.773
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.773
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.773
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.774
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.774
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.774
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.775
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.775
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.775
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.775
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.776
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.776
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.776
+!MESSAGE executing callback sts4.classpath.GVGgxOeO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:15:33.810
+!MESSAGE executing callback sts4.classpath.GVGgxOeO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.411
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.412
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.412
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.413
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.413
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.413
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.413
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.414
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.414
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.414
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.414
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.415
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.415
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.415
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.416
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.416
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.417
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.417
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.417
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.418
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.418
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.418
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.419
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.419
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.420
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.420
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.420
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.421
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.422
+!MESSAGE executing callback sts4.classpath.GVGgxOeO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.436
+!MESSAGE executing callback sts4.classpath.GVGgxOeO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.962
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.962
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.963
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.963
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.963
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.964
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.964
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.965
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.965
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.965
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.965
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.966
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.966
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.966
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.967
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.967
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.967
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.968
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.969
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.969
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.969
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.969
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.970
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.970
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.971
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.971
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.972
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.972
+!MESSAGE executing callback sts4.classpath.GVGgxOeO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:08.985
+!MESSAGE executing callback sts4.classpath.GVGgxOeO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.968
+!MESSAGE Preparing classpath changed notification hb-01-one-one-uni
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.968
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.969
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.969
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-01-one-one-uni false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.969
+!MESSAGE Preparing classpath changed notification hb-02-one-one-bi
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.969
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.969
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.970
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hb-02-one-one-bi false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.970
+!MESSAGE Preparing classpath changed notification hibernate-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.970
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.970
+!MESSAGE classpath=35 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.970
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO hibernate-demo false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.971
+!MESSAGE Preparing classpath changed notification spring-demo-XML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.971
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.971
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.971
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-XML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.972
+!MESSAGE Preparing classpath changed notification spring-demo-annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.972
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.972
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.973
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-annotations false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.973
+!MESSAGE Preparing classpath changed notification spring-demo-noXML
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.973
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.973
+!MESSAGE classpath=79 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.973
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-demo-noXML false 16
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.974
+!MESSAGE Preparing classpath changed notification spring-mvc-demo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.974
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.974
+!MESSAGE classpath=116 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.975
+!MESSAGE buffering callback sts4.classpath.GVGgxOeO spring-mvc-demo false 53
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.975
+!MESSAGE executing callback sts4.classpath.GVGgxOeO 7 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:09.988
+!MESSAGE executing callback sts4.classpath.GVGgxOeO SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:33.379
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GVGgxOeO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:33.379
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.GVGgxOeO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:33.381
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-11-18 11:16:33.381
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.GVGgxOeO => OK

@@ -6,7 +6,6 @@ import org.hibernate.Session;
 import org.hibernate.Transaction;
 
 import com.app.pojos.Instructor;
-import com.app.pojos.InstructorDetail;
 
 public class Delete {
 

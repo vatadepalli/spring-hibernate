@@ -1,11 +1,9 @@
 package com.app.testCRUD;
 
-import org.hibernate.Session;
-import org.hibernate.Transaction;
 import static com.app.utils.HibernateUtils.getSf;
 
-
-import com.app.pojos.Student;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
 
 public class DeleteStudent {
 
