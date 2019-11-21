@@ -22,7 +22,7 @@ public class TestDB extends HttpServlet {
 		String user = "springstudent";
 		String pass = "springstudent";
 		
-		String jdbcUrl = "jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false";
+		String jdbcUrl = "jdbc:mysql://localhost:3306/day_14_2?useSSL=false";
 		String driver = "com.mysql.jdbc.Driver";
 		
 		

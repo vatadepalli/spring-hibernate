@@ -38,7 +38,7 @@
 
 		<property name="driverClass" value="com.mysql.cj.jdbc.Driver" />
 		<property name="jdbcUrl"
-			value="jdbc:mysql://localhost:3306/web_customer_tracker?useSSL=false" />
+			value="jdbc:mysql://localhost:3306/day_14_2?useSSL=false" />
 		<property name="user" value="springstudent" />
 		<property name="password" value="springstudent" />
 
