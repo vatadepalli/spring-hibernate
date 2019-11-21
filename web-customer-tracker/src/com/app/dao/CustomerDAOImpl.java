@@ -7,7 +7,6 @@ import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
-import org.springframework.transaction.annotation.Transactional;
 
 import com.app.entities.Customer;
 
@@ -23,14 +22,48 @@ public class CustomerDAOImpl implements ICustomerDAO{
 		// Get Current Hibernate Session
 		Session currentSession = sessionFactory.getCurrentSession();
 		
-		// Create a Query
-		Query<Customer> theQuery = currentSession.createQuery("from Customer", Customer.class);
+		// Create a Query .. sort by last name
+		Query<Customer> theQuery = currentSession
+								.createQuery("from Customer order by lastName", Customer.class);
 		
 		// Execute the Query
 		List<Customer> customers = theQuery.getResultList();
 		
 		// Return the list of customers
 		return customers;
+	}
+
+	@Override
+	public void saveCustomer(Customer customer) {
+		
+		// get current hibernate session
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		// save the customer
+//		currentSession.save(customer);	
+		currentSession.saveOrUpdate(customer);	
+	}
+
+	@Override
+	public Customer getCustomer(int id) {
+		// get current hibernate session
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		// retrieve / read from databse using primary key
+		return currentSession.get(Customer.class, id);
+	
+	}
+
+	@Override
+	public void deleteCustomer(int id) {
+		// get current hibernate session
+		Session currentSession = sessionFactory.getCurrentSession();
+		
+		// delete object with key
+		Query theQuery = currentSession.createQuery("delete from Customer where id=:customerId");
+		theQuery.setParameter("customerId", id);
+		theQuery.executeUpdate();
+		
 	}
 
 }
