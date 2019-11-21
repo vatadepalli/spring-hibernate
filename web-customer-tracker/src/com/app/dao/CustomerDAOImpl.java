@@ -60,7 +60,8 @@ public class CustomerDAOImpl implements ICustomerDAO{
 		Session currentSession = sessionFactory.getCurrentSession();
 		
 		// delete object with key
-		Query theQuery = currentSession.createQuery("delete from Customer where id=:customerId");
+		@SuppressWarnings("unchecked")
+		Query<Customer> theQuery = currentSession.createQuery("delete from Customer where id=:customerId");
 		theQuery.setParameter("customerId", id);
 		theQuery.executeUpdate();
 		
